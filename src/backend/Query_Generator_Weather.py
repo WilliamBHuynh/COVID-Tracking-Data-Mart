@@ -25,9 +25,6 @@ print(df.head())
 
 output_file = open(r'C:\Users\samet\Documents\January_2021\CSI4142\Project\weather_sql.txt', "w")
 
-for ind in df.index:
-    print(type(df['surrogate_key'][ind]), type(df['Max Temp (°C)'][ind]), type(df['Min Temp (°C)'][ind]), type(df['Mean Temp (°C)'][ind]), 
-    type(df['Station Name'][ind]), type(df['Total Precip (mm)'][ind]), type(df['Date/Time'][ind]))
 
 for ind in df.index: 
     str = """INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
@@ -35,9 +32,5 @@ for ind in df.index:
     df['Station Name'][ind], df['Total Precip (mm)'][ind], df['Date/Time'][ind])
 
     output_file.write(str)
-
-    #cursor.execute("""INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
-    #VALUES (%s, %s, %s, %s, %s, %s, %s)""", (df['surrogate_key'][ind], df['Max Temp (°C)'][ind], df['Min Temp (°C)'][ind], df['Mean Temp (°C)'][ind], 
-    #{df['Station Name'][ind]}, df['Total Precip (mm)'][ind], df['Date/Time'][ind]))
 
 output_file.close()
