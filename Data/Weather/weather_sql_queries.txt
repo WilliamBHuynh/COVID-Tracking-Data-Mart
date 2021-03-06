@@ -1,0 +1,492 @@
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (0, 2.7, -2.3, 0.2, 'OTTAWA INTL A', 0.0, '2020-10-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (1, 9.4, -1.1, 4.2, 'OTTAWA INTL A', 0.4, '2020-10-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (2, 6.0, -1.3, 2.4, 'OTTAWA INTL A', 0.0, '2020-10-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (3, 3.9, -4.9, -0.5, 'OTTAWA INTL A', 0.0, '2020-10-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (4, 6.5, -8.4, -1.0, 'OTTAWA INTL A', 0.0, '2020-10-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (5, 7.8, -0.7, 3.6, 'OTTAWA INTL A', 2.2, '2020-11-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (6, 2.0, -2.5, -0.3, 'OTTAWA INTL A', 2.4, '2020-11-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (7, 0.3, -4.1, -1.9, 'OTTAWA INTL A', 0.0, '2020-11-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (8, 13.8, -3.0, 5.4, 'OTTAWA INTL A', 0.0, '2020-11-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (9, 19.3, -1.2, 9.1, 'OTTAWA INTL A', 0.0, '2020-11-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (10, 18.4, 7.6, 13.0, 'OTTAWA INTL A', 0.0, '2020-11-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (11, 20.7, 8.6, 14.7, 'OTTAWA INTL A', 0.0, '2020-11-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (12, 21.5, 6.4, 14.0, 'OTTAWA INTL A', 0.0, '2020-11-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (13, 22.5, 6.2, 14.4, 'OTTAWA INTL A', 0.0, '2020-11-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (14, 23.4, 9.0, 16.2, 'OTTAWA INTL A', 0.0, '2020-11-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (15, 19.6, 2.3, 11.0, 'OTTAWA INTL A', 0.6, '2020-11-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (16, 7.7, -3.3, 2.2, 'OTTAWA INTL A', 0.0, '2020-11-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (17, 6.0, -4.4, 0.8, 'OTTAWA INTL A', 0.0, '2020-11-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (18, 4.8, -5.5, -0.4, 'OTTAWA INTL A', 0.0, '2020-11-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (19, 8.8, -4.9, 2.0, 'OTTAWA INTL A', 2.7, '2020-11-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (20, 7.8, 1.0, 4.4, 'OTTAWA INTL A', 0.0, '2020-11-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (21, 2.2, -8.3, -3.1, 'OTTAWA INTL A', 0.0, '2020-11-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (22, -2.9, -9.5, -6.2, 'OTTAWA INTL A', 0.0, '2020-11-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (23, 8.2, -6.2, 1.0, 'OTTAWA INTL A', 0.0, '2020-11-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (24, 15.1, 6.2, 10.7, 'OTTAWA INTL A', 0.0, '2020-11-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (25, 7.2, -6.2, 0.5, 'OTTAWA INTL A', 0.0, '2020-11-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (26, 0.1, -6.9, -3.4, 'OTTAWA INTL A', 12.2, '2020-11-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (27, 0.6, -1.7, -0.6, 'OTTAWA INTL A', 5.2, '2020-11-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (28, -1.0, -11.6, -6.3, 'OTTAWA INTL A', 0.0, '2020-11-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (29, -0.5, -6.3, -3.4, 'OTTAWA INTL A', 7.5, '2020-11-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (30, 1.8, -0.3, 0.8, 'OTTAWA INTL A', 1.8, '2020-11-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (31, 4.3, 1.6, 3.0, 'OTTAWA INTL A', 0.0, '2020-11-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (32, 4.6, 0.8, 2.7, 'OTTAWA INTL A', 0.0, '2020-11-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (33, 7.6, 0.5, 4.1, 'OTTAWA INTL A', 0.0, '2020-11-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (34, 4.4, -0.3, 2.1, 'OTTAWA INTL A', 12.3, '2020-11-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (35, 5.3, 0.8, 3.1, 'OTTAWA INTL A', 6.1, '2020-12-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (36, 1.3, -5.2, -2.0, 'OTTAWA INTL A', 2.0, '2020-12-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (37, 3.4, -5.2, -0.9, 'OTTAWA INTL A', 0.0, '2020-12-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (38, 3.0, 0.0, 1.5, 'OTTAWA INTL A', 4.3, '2020-12-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (39, 1.1, -4.6, -1.8, 'OTTAWA INTL A', 0.0, '2020-12-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (40, -1.6, -5.6, -3.6, 'OTTAWA INTL A', 0.0, '2020-12-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (41, -2.8, -7.4, -5.1, 'OTTAWA INTL A', 0.0, '2020-12-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (42, -5.0, -9.2, -7.1, 'OTTAWA INTL A', 0.0, '2020-12-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (43, 1.3, -6.2, -2.5, 'OTTAWA INTL A', 2.1, '2020-12-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (44, 1.4, -1.2, 0.1, 'OTTAWA INTL A', 0.0, '2020-12-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (45, 4.2, -1.0, 1.6, 'OTTAWA INTL A', 0.0, '2020-12-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (46, 2.0, 0.0, 1.0, 'OTTAWA INTL A', 3.0, '2020-12-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (47, 6.7, -4.0, 1.4, 'OTTAWA INTL A', 0.0, '2020-12-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (48, -1.6, -5.7, -3.7, 'OTTAWA INTL A', 0.4, '2020-12-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (49, -5.8, -16.9, -11.4, 'OTTAWA INTL A', 0.0, '2020-12-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (50, -13.3, -18.4, -15.9, 'OTTAWA INTL A', 0.0, '2020-12-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (51, -5.8, -14.0, -9.9, 'OTTAWA INTL A', 0.0, '2020-12-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (52, -5.3, -15.7, -10.5, 'OTTAWA INTL A', 0.0, '2020-12-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (53, -3.6, -13.3, -8.5, 'OTTAWA INTL A', 0.0, '2020-12-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (54, 1.0, -3.8, -1.4, 'OTTAWA INTL A', 1.8, '2020-12-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (55, 3.4, 0.1, 1.8, 'OTTAWA INTL A', 0.8, '2020-12-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (56, 1.8, -8.6, -3.4, 'OTTAWA INTL A', 0.2, '2020-12-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (57, -3.0, -11.0, -7.0, 'OTTAWA INTL A', 0.4, '2020-12-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (58, 8.8, -3.2, 2.8, 'OTTAWA INTL A', 25.7, '2020-12-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (59, 5.9, -3.4, 1.3, 'OTTAWA INTL A', 25.4, '2020-12-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (60, -2.6, -9.6, -6.1, 'OTTAWA INTL A', 0.4, '2020-12-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (61, -3.6, -10.1, -6.9, 'OTTAWA INTL A', 0.0, '2020-12-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (62, 4.3, -6.8, -1.2, 'OTTAWA CDA RCS', 1.9, '2020-12-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (63, -6.8, -11.8, -9.3, 'OTTAWA INTL A', 0.0, '2020-12-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (64, 3.2, -8.9, -2.9, 'OTTAWA INTL A', 4.5, '2020-12-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (65, 2.3, -5.6, -1.7, 'OTTAWA INTL A', 0.0, '2020-12-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (66, -0.3, -5.7, -3.0, 'OTTAWA INTL A', 1.6, '2021-01-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (67, -0.6, -6.8, -3.7, 'OTTAWA INTL A', 3.5, '2021-01-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (68, -2.3, -6.8, -4.6, 'OTTAWA INTL A', 0.0, '2021-01-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (69, -0.9, -3.9, -2.4, 'OTTAWA INTL A', 0.4, '2021-01-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (70, -1.8, -3.4, -2.6, 'OTTAWA INTL A', 0.4, '2021-01-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (71, -2.4, -5.0, -3.7, 'OTTAWA INTL A', 0.0, '2021-01-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (72, -2.7, -7.5, -5.1, 'OTTAWA INTL A', 0.0, '2021-01-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (73, -6.2, -12.6, -9.4, 'OTTAWA INTL A', 0.0, '2021-01-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (74, -1.6, -10.2, -5.9, 'OTTAWA INTL A', 0.0, '2021-01-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (75, -6.2, -11.2, -8.7, 'OTTAWA INTL A', 0.0, '2021-01-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (76, 1.1, -6.0, -2.5, 'OTTAWA INTL A', 0.4, '2021-01-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (77, 0.8, -2.0, -0.6, 'OTTAWA INTL A', 0.0, '2021-01-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (78, 0.6, -2.7, -1.1, 'OTTAWA INTL A', 0.3, '2021-01-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (79, 0.4, -0.7, -0.2, 'OTTAWA INTL A', 0.0, '2021-01-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (80, 0.7, -2.1, -0.7, 'OTTAWA INTL A', 0.2, '2021-01-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (81, 0.2, -0.7, -0.3, 'OTTAWA INTL A', 14.8, '2021-01-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (82, 0.2, -7.3, -3.6, 'OTTAWA INTL A', 0.2, '2021-01-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (83, -7.5, -14.9, -11.2, 'OTTAWA INTL A', 0.0, '2021-01-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (84, -7.3, -16.4, -11.9, 'OTTAWA INTL A', 0.8, '2021-01-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (85, -9.1, -17.9, -13.5, 'OTTAWA INTL A', 0.0, '2021-01-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (86, -3.2, -13.9, -8.6, 'OTTAWA INTL A', 3.0, '2021-01-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (87, -2.1, -12.8, -7.5, 'OTTAWA INTL A', 0.0, '2021-01-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (88, -13.5, -18.1, -15.8, 'OTTAWA INTL A', 0.0, '2021-01-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (89, -10.5, -18.8, -14.7, 'OTTAWA INTL A', 0.0, '2021-01-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (90, -12.8, -18.9, -6.6, 'OTTAWA INTL A', 0.2, '2021-01-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (91, -4.3, -7.8, -6.1, 'OTTAWA INTL A', 4.4, '2021-01-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (92, -3.6, -8.6, -6.1, 'OTTAWA INTL A', 0.2, '2021-01-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (93, -7.9, -18.4, -13.2, 'OTTAWA INTL A', 0.0, '2021-01-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (94, -11.5, -19.8, -15.7, 'OTTAWA INTL A', 0.0, '2021-01-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (95, -11.5, -19.3, -15.4, 'OTTAWA INTL A', 0.0, '2021-01-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (96, -12.8, -22.0, -17.4, 'OTTAWA INTL A', 0.0, '2021-01-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (97, -5.5, -22.2, -13.9, 'OTTAWA INTL A', 0.0, '2021-02-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (98, 0.6, -10.2, -4.8, 'OTTAWA INTL A', 1.8, '2021-02-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (99, 1.2, -4.3, -1.6, 'OTTAWA INTL A', 2.0, '2021-02-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (100, 0.7, -9.8, -4.6, 'OTTAWA INTL A', 0.0, '2021-02-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (101, 1.8, -9.7, -4.0, 'OTTAWA INTL A', 1.8, '2021-02-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (102, -4.7, -12.2, -8.5, 'OTTAWA INTL A', 0.0, '2021-02-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (103, -5.1, -13.7, -9.4, 'OTTAWA INTL A', 2.0, '2021-02-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (104, -6.8, -20.3, -13.5, 'OTTAWA CDA RCS', 0.2, '2021-02-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (105, -5.7, -12.4, -9.1, 'OTTAWA INTL A', 0.6, '2021-02-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (106, -7.2, -17.0, -12.1, 'OTTAWA INTL A', 0.0, '2021-02-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (107, -8.9, -18.1, -13.5, 'OTTAWA INTL A', 0.0, '2021-02-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (108, -14.5, -23.4, -19.0, 'OTTAWA INTL A', 0.0, '2021-02-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (109, -12.5, -22.8, -17.7, 'OTTAWA INTL A', 0.2, '2021-02-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (110, -6.6, -14.3, -10.4, 'OTTAWA CDA RCS', 1.1, '2021-02-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (111, -5.2, -11.7, -8.5, 'OTTAWA INTL A', 2.6, '2021-02-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (112, -7.7, -15.1, -11.4, 'OTTAWA INTL A', 15.8, '2021-02-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (113, -6.8, -21.4, -14.1, 'OTTAWA INTL A', 0.0, '2021-02-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (114, -4.7, -18.1, -11.4, 'OTTAWA INTL A', 0.0, '2021-02-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (115, -6.6, -11.7, -9.2, 'OTTAWA INTL A', 2.2, '2021-02-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (116, -4.0, -14.3, -9.2, 'OTTAWA INTL A', 0.0, '2021-02-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (117, -0.9, -16.0, -8.5, 'OTTAWA INTL A', 0.0, '2021-02-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (118, 1.0, -8.4, -3.7, 'OTTAWA INTL A', 4.0, '2021-02-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (119, 2.2, -0.3, 1.0, 'OTTAWA INTL A', 0.6, '2021-02-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (120, 1.8, -3.2, -0.7, 'OTTAWA INTL A', 10.4, '2021-02-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (121, -2.8, -12.4, -7.6, 'OTTAWA INTL A', 0.0, '2021-02-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (122, 0.8, -15.6, -7.4, 'OTTAWA INTL A', 0.0, '2021-02-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (123, 7.3, 1.5, 4.4, 'TORONTO INTL A', 5.2, '2020-10-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (124, 11.8, 2.4, 7.1, 'TORONTO INTL A', 0.0, '2020-10-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (125, 10.8, 2.1, 6.5, 'TORONTO INTL A', 1.6, '2020-10-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (126, 2.3, -4.3, -1.0, 'TORONTO INTL A', 0.0, '2020-10-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (127, 6.7, -5.4, 0.7, 'TORONTO INTL A', 0.0, '2020-10-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (128, 11.2, 0.0, 5.6, 'TORONTO INTL A', 3.6, '2020-11-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (129, 7.2, -2.1, 2.6, 'TORONTO INTL A', 0.0, '2020-11-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (130, 7.1, 3.8, 5.5, 'TORONTO INTL A', 0.0, '2020-11-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (131, 19.6, 1.8, 10.7, 'TORONTO INTL A', 0.0, '2020-11-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (132, 19.2, 11.4, 15.3, 'TORONTO INTL A', 0.0, '2020-11-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (133, 20.8, 9.1, 15.0, 'TORONTO INTL A', 0.0, '2020-11-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (134, 21.0, 9.4, 15.2, 'TORONTO INTL A', 0.0, '2020-11-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (135, 20.1, 6.2, 13.2, 'TORONTO INTL A', 0.0, '2020-11-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (136, 19.5, 6.9, 13.2, 'TORONTO INTL A', 0.0, '2020-11-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (137, 24.3, 7.8, 16.1, 'TORONTO INTL A', 0.0, '2020-11-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (138, 18.2, 5.5, 11.9, 'TORONTO INTL A', 0.6, '2020-11-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (139, 9.8, 3.7, 6.8, 'TORONTO INTL A', 0.0, '2020-11-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (140, 9.0, 3.3, 6.2, 'TORONTO INTL A', 0.0, '2020-11-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (141, 7.6, 0.1, 3.9, 'TORONTO INTL A', 0.0, '2020-11-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (142, 13.2, 3.1, 8.2, 'TORONTO INTL A', 10.4, '2020-11-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (143, 4.1, 1.1, 2.6, 'TORONTO INTL A', 0.2, '2020-11-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (144, 3.0, -5.4, -1.2, 'TORONTO INTL A', 0.6, '2020-11-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (145, 1.5, -6.2, -2.4, 'TORONTO INTL A', 0.0, '2020-11-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (146, 15.0, 1.5, 8.3, 'TORONTO INTL A', 0.0, '2020-11-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (147, 17.8, 6.1, 12.0, 'TORONTO INTL A', 0.0, '2020-11-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (148, 6.0, 0.3, 3.2, 'TORONTO INTL A', 0.0, '2020-11-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (149, 1.9, -1.0, 0.5, 'TORONTO INTL A', 19.4, '2020-11-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (150, 3.5, -4.2, -0.4, 'TORONTO INTL A', 0.0, '2020-11-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (151, 2.1, -1.7, 0.2, 'TORONTO INTL A', 1.0, '2020-11-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (152, 8.3, 1.3, 4.8, 'TORONTO INTL A', 6.8, '2020-11-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (153, 11.9, 6.6, 9.3, 'TORONTO INTL A', 1.2, '2020-11-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (154, 7.8, 4.9, 6.4, 'TORONTO INTL A', 0.0, '2020-11-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (155, 7.0, 1.8, 4.4, 'TORONTO INTL A', 0.0, '2020-11-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (156, 10.8, 0.7, 5.8, 'TORONTO INTL A', 0.0, '2020-11-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (157, 5.5, -0.9, 2.3, 'TORONTO INTL A', 22.0, '2020-11-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (158, -0.1, -2.2, -1.2, 'TORONTO INTL A', 8.4, '2020-12-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (159, 3.8, -1.4, 1.2, 'TORONTO INTL A', 1.0, '2020-12-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (160, 4.1, -1.5, 1.3, 'TORONTO INTL A', 0.0, '2020-12-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (161, 3.4, -0.2, 1.6, 'TORONTO INTL A', 3.6, '2020-12-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (162, 1.7, -4.5, -1.4, 'TORONTO INTL A', 0.0, '2020-12-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (163, 0.7, -6.3, -2.8, 'TORONTO INTL A', 0.0, '2020-12-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (164, 1.0, -6.3, -2.7, 'TORONTO INTL A', 0.0, '2020-12-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (165, 1.9, -6.7, -2.4, 'TORONTO INTL A', 0.0, '2020-12-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (166, 4.4, 0.1, 2.3, 'TORONTO INTL A', 4.0, '2020-12-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (167, 5.9, 0.9, 3.4, 'TORONTO INTL A', 0.0, '2020-12-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (168, 9.4, 0.8, 5.1, 'TORONTO INTL A', 0.0, '2020-12-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (169, 9.1, 3.4, 6.3, 'TORONTO INTL A', 8.0, '2020-12-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (170, 5.1, -0.6, 2.3, 'TORONTO INTL A', 0.0, '2020-12-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (171, 1.7, -2.5, -0.4, 'TORONTO INTL A', 0.0, '2020-12-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (172, -2.4, -7.7, -5.1, 'TORONTO INTL A', 0.2, '2020-12-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (173, -5.6, -8.7, -7.2, 'TORONTO INTL A', 1.4, '2020-12-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (174, -2.7, -8.0, -5.4, 'TORONTO INTL A', 0.6, '2020-12-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (175, -1.3, -9.7, -5.5, 'TORONTO INTL A', 0.0, '2020-12-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (176, 2.5, -2.0, 0.3, 'TORONTO INTL A', 2.2, '2020-12-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (177, 5.0, -0.4, 2.3, 'TORONTO INTL A', 1.2, '2020-12-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (178, 4.3, -1.3, 1.5, 'TORONTO INTL A', 0.2, '2020-12-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (179, 2.7, -0.8, 1.0, 'TORONTO INTL A', 0.0, '2020-12-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (180, 6.3, 0.5, 3.4, 'TORONTO INTL A', 1.8, '2020-12-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (181, 9.6, -2.8, 3.4, 'TORONTO INTL A', 12.4, '2020-12-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (182, -0.4, -5.4, -2.9, 'TORONTO INTL A', 8.0, '2020-12-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (183, -2.5, -5.5, -4.0, 'TORONTO INTL A', 1.6, '2020-12-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (184, 2.5, -3.7, -0.6, 'TORONTO INTL A', 1.0, '2020-12-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (185, 4.4, -3.6, 0.4, 'TORONTO INTL A', 5.2, '2020-12-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (186, -1.2, -5.6, -3.4, 'TORONTO INTL A', 0.0, '2020-12-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (187, 5.1, -3.7, 0.7, 'TORONTO INTL A', 3.2, '2020-12-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (188, 1.5, -3.0, -0.8, 'TORONTO INTL A', 0.0, '2020-12-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (189, 1.6, -4.1, -1.3, 'TORONTO INTL A', 8.0, '2021-01-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (190, 1.2, -2.5, -0.7, 'TORONTO INTL A', 6.8, '2021-01-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (191, 1.1, -0.8, 0.2, 'TORONTO INTL A', 1.6, '2021-01-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (192, 1.1, -0.8, 0.2, 'TORONTO INTL A', 0.0, '2021-01-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (193, 1.0, -0.1, 0.5, 'TORONTO INTL A', 0.2, '2021-01-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (194, 2.0, -1.2, 0.4, 'TORONTO INTL A', 0.2, '2021-01-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (195, -0.6, -7.1, -3.9, 'TORONTO INTL A', 0.0, '2021-01-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (196, -3.5, -9.3, -6.4, 'TORONTO INTL A', 0.0, '2021-01-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (197, 3.3, -4.3, -0.5, 'TORONTO INTL A', 0.0, '2021-01-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (198, 1.9, -5.6, -1.9, 'TORONTO INTL A', 0.0, '2021-01-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (199, 0.2, -6.1, -3.0, 'TORONTO INTL A', 0.0, '2021-01-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (200, -1.2, -2.1, -1.7, 'TORONTO INTL A', 0.0, '2021-01-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (201, 3.1, -1.4, 0.9, 'TORONTO INTL A', 0.0, '2021-01-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (202, 4.6, -0.8, 1.9, 'TORONTO INTL A', 0.0, '2021-01-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (203, 5.6, 1.2, 3.4, 'TORONTO INTL A', 5.0, '2021-01-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (204, 4.7, -2.6, 1.1, 'TORONTO INTL A', 0.0, '2021-01-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (205, 4.2, -2.7, 0.8, 'TORONTO INTL A', 0.6, '2021-01-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (206, 0.9, -4.6, -1.9, 'TORONTO INTL A', 0.0, '2021-01-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (207, 2.2, -2.2, 0.0, 'TORONTO CITY', 0.0, '2021-01-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (208, -2.2, -7.7, -5.0, 'TORONTO INTL A', 0.0, '2021-01-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (209, 3.1, -1.8, 0.7, 'TORONTO INTL A', 0.2, '2021-01-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (210, 1.0, -7.8, -3.4, 'TORONTO INTL A', 0.4, '2021-01-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (211, -4.8, -12.6, -8.7, 'TORONTO INTL A', 0.0, '2021-01-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (212, -2.7, -7.2, -5.0, 'TORONTO INTL A', 0.0, '2021-01-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (213, 1.9, -3.7, -0.9, 'TORONTO INTL A', 0.0, '2021-01-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (214, -0.5, -4.6, -2.6, 'TORONTO INTL A', 7.4, '2021-01-26') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (215, -3.3, -10.2, -6.8, 'TORONTO INTL A', 0.0, '2021-01-27') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (216, -7.8, -13.8, -10.8, 'TORONTO INTL A', 0.0, '2021-01-28') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (217, -7.1, -14.6, -10.9, 'TORONTO INTL A', 0.2, '2021-01-29') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (218, -2.2, -13.8, -8.0, 'TORONTO INTL A', 0.0, '2021-01-30') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (219, -5.2, -10.6, -7.9, 'TORONTO INTL A', 0.0, '2021-01-31') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (220, -3.7, -11.3, -7.5, 'TORONTO INTL A', 0.0, '2021-02-01') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (221, -0.9, -9.6, -5.3, 'TORONTO INTL A', 0.0, '2021-02-02') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (222, 0.6, -6.3, -2.9, 'TORONTO INTL A', 0.0, '2021-02-03') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (223, 4.3, -7.2, -1.5, 'TORONTO INTL A', 1.4, '2021-02-04') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (224, 1.7, -8.0, -3.2, 'TORONTO INTL A', 5.2, '2021-02-05') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (225, -6.0, -9.4, -7.7, 'TORONTO INTL A', 0.0, '2021-02-06') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (226, -6.2, -13.3, -9.8, 'TORONTO INTL A', 0.6, '2021-02-07') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (227, -6.5, -13.4, -10.0, 'TORONTO INTL A', 0.2, '2021-02-08') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (228, -2.7, -11.4, -7.1, 'TORONTO INTL A', 1.0, '2021-02-09') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (229, -5.3, -13.2, -9.3, 'TORONTO INTL A', 0.0, '2021-02-10') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (230, -4.7, -11.2, -8.0, 'TORONTO INTL A', 0.0, '2021-02-11') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (231, -8.3, -14.2, -11.3, 'TORONTO INTL A', 1.8, '2021-02-12') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (232, -9.1, -13.9, -11.5, 'TORONTO INTL A', 2.2, '2021-02-13') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (233, -4.0, -14.8, -9.4, 'TORONTO INTL A', 0.4, '2021-02-14') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (234, -4.2, -9.7, -7.0, 'TORONTO INTL A', 3.2, '2021-02-15') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (235, -7.0, -15.3, -11.2, 'TORONTO INTL A', 8.8, '2021-02-16') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (236, -2.5, -12.7, -7.6, 'TORONTO CITY', 0.0, '2021-02-17') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (237, -2.6, -6.2, -4.4, 'TORONTO CITY', 3.7, '2021-02-18') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (238, -2.5, -7.2, -4.9, 'TORONTO INTL A', 7.8, '2021-02-19') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (239, -1.8, -11.4, -6.6, 'TORONTO INTL A', 0.4, '2021-02-20') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (240, -1.5, -12.4, -7.0, 'TORONTO INTL A', 0.0, '2021-02-21') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (241, 2.8, -1.7, 0.6, 'TORONTO INTL A', 4.8, '2021-02-22') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (242, 4.3, -0.7, 1.8, 'TORONTO INTL A', 0.2, '2021-02-23') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (243, 8.4, -0.6, 3.9, 'TORONTO INTL A', 0.0, '2021-02-24') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (244, 0.9, -3.7, -1.4, 'TORONTO INTL A', 0.0, '2021-02-25') ;
+INSERT INTO d_weather (weather_key, daily_high_temp, daily_low_temp, daily_mean, station_name, total_precipitation, weather_date) 
+    VALUES (245, 3.8, -6.9, -1.6, 'TORONTO INTL A', 0.0, '2021-02-26') ;
