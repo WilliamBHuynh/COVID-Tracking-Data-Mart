@@ -7,7 +7,7 @@ mobilityData = pd.read_csv(
 
 # Connect to database
 conn = psycopg2.connect(
-    "host=www.eecs.uottawa.ca port=15432 dbname=group_20 user=whuyn056 password=s&jVrCZ!2CTq99")
+    "host=www.eecs.uottawa.ca port=15432 dbname=group_20 user=whuyn056 password=")
 
 # Open a cursor to perform database operations
 cur = conn.cursor()
