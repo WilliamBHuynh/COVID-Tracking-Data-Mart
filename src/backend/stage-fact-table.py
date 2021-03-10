@@ -26,7 +26,7 @@ cur.execute("""DROP TABLE if exists fact_table;
             Special_measures_key        INT NOT NULL,
             Weather_key                 INT NOT NULL,
             Resolved                    BIT NOT NULL,
-            UnResolved                  BIT NOT NULL,
+            Unresolved                  BIT NOT NULL,
             Fatal                       BIT NOT NULL,
             FOREIGN KEY (Onset_date_key) REFERENCES d_onset_date(Onset_date_key),
             FOREIGN KEY (Reported_date_key) REFERENCES d_reported_date(Reported_date_key),
@@ -42,10 +42,10 @@ cur.execute("""DROP TABLE if exists fact_table;
 
 # Insert values from the fact table data to database
 sqlInsert = """ INSERT INTO fact_table (Onset_date_key, Reported_date_key, Test_date_key, Specimen_date_key, Patient_key,
-    PHU_key, Mobility_key, Special_measures_key, Weather_key, Resolved, UnResolved, Fatal) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) """
+    PHU_key, Mobility_key, Special_measures_key, Weather_key, Resolved, Unresolved, Fatal) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) """
 for idx, row in factTableData.iterrows():
-    record = (row["Mobility_key"], row["Date"], row["Subregion"], row["Province"], row["Retail_and_recreation"],
-              row["Grocery_and_phramacy"], row["Parks"], row["Transit_stations"], row["Workplaces"], row["Residential"])
+    record = (row["Onset_date_key"], row["Reported_date_key"], row["Test_date_key"], row["Specimen_date_key"], row["Patient_key"],
+              row["PHU_key"], row["Mobility_key"], row["Special_measures_key"], row["Weather_key"], row["Resolved"], row["Unresolved"], row["Fatal"])
     cur.execute(sqlInsert, record)
 
 # Make the changes to the database persistent
