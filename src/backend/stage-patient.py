@@ -19,7 +19,7 @@ cur.execute("""DROP TABLE if exists d_patient;
             patient_surrogate_key       INT NOT NULL,
             patient_key                 INT NOT NULL,
             age                         VARCHAR(7) NOT NULL,
-            gender                      VARCHAR(6) NOT NULL,
+            gender                      VARCHAR(14) NOT NULL,
             acquisition_group           VARCHAR(20) NOT NULL,
             outbreak_related            BOOLEAN NOT NULL,
             PRIMARY KEY (patient_surrogate_key)
