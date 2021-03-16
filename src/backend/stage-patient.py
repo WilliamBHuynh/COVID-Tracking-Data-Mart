@@ -3,7 +3,7 @@ import pandas as pd
 
 # Load data
 data = pd.read_csv(
-    "/mnt/c/Users/William's Zenbook/Desktop/Data Science (4142)/COVID-Tracking-Data-Mart/Data/Dates/Onset_Date_dimension.csv")
+    "/mnt/c/Users/William's Zenbook/Desktop/Data Science (4142)/COVID-Tracking-Data-Mart/Data/PHU & Patient dimensions/Patient_dimension.csv")
 
 # Connect to database
 conn = psycopg2.connect(
@@ -18,8 +18,8 @@ cur.execute("""DROP TABLE if exists d_patient;
             (
             patient_surrogate_key       INT NOT NULL,
             patient_key                 INT NOT NULL,
-            age                         INT NOT NULL,
-            gender                      BOOLEAN NOT NULL,
+            age                         VARCHAR(7) NOT NULL,
+            gender                      VARCHAR(6) NOT NULL,
             acquisition_group           VARCHAR(20) NOT NULL,
             outbreak_related            BOOLEAN NOT NULL,
             PRIMARY KEY (patient_surrogate_key)
@@ -30,7 +30,7 @@ sqlInsert = """ INSERT INTO d_patient (patient_surrogate_key, patient_key, age, 
      outbreak_related) VALUES (%s,%s,%s,%s,%s,%s) """
 for idx, row in data.iterrows():
     record = (row["Patient_Surrogate_Key"], row["Patient_Key"], row["Age"], row["Gender"],
-              row["Acquisition_group"], row["Outbreak_related"])
+              row["Acquisition_Group"], row["Outbreak_Related"])
     cur.execute(sqlInsert, record)
 
 # Make the changes to the database persistent
