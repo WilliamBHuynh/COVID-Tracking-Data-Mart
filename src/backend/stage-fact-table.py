@@ -1,5 +1,8 @@
 import psycopg2
+import numpy as np
+from psycopg2.extensions import register_adapter, AsIs
 import pandas as pd
+psycopg2.extensions.register_adapter(np.int64, psycopg2._psycopg.AsIs)
 
 # Load fact table data
 factTableData = pd.read_csv(
