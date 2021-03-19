@@ -29,7 +29,7 @@ curr.execute("""DROP TABLE if exists d_special_measures;
             city                 VARCHAR(10) NOT NULL,
             zone_measures        VARCHAR(10) NOT NULL,
             description          VARCHAR(150) NOT NULL,
-            key_word             VARCHAR(25) NOT NULL,
+            key_word             VARCHAR(100) NOT NULL,
             PRIMARY KEY (surrogate_key)
             );""")
 
