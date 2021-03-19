@@ -1,0 +1,12 @@
+Special_Measures_Surrogate_Key,City,Zone_Measures,Start_Date,End_Date,Description,Key_Word,Lockdown,Mandatory Masks,Indoor Dining,Gyms Open,Stay-at-home Order,Max Indoor Capacity,Max Outdoor Capacity
+0,Ottawa,Orange,2020-10-27,2020-12-26,Ottawa is designated as a Restrict/Orange Zone(Designated Nov 7th),Indoor services limited to 50 people,0,1,1,1,0,50,100
+1,Ottawa,Grey,2020-12-26,2021-01-12,Province wide lockdown begins,Lockdown,1,1,0,0,1,0,10
+2,Ottawa,Grey,2021-01-12,2021-02-08,Ontario extends province wide lockdown,Lockdown extended,1,1,0,0,1,0,10
+3,Ottawa,Grey,2021-02-08,2021-02-16,Ottawa lockdown for another week,Lockdown extended,1,1,0,0,1,0,10
+4,Ottawa,Orange,2021-02-16,2021-02-27,"Ottawa stay-at home order ends, back to being Orange zone",Indoor services limited to 50 people,0,1,1,1,0,50,100
+5,Toronto,Orange,2020-10-27,2020-11-14,Toronto is designated as a Restrict/Orange Zone(Designated Nov 7th),Indoor services limited to 50 people,0,1,1,1,0,50,100
+6,Toronto,Red,2020-11-14,2020-11-23,Toronto is declared a red zone(only outdoor dining allowed),Indoor services limited to 10 people,0,1,1,1,0,10,25
+7,Toronto,Grey,2020-11-23,2020-12-26,"Toronto goes into lockdown, designated as grey zone",Lockdown,1,1,0,0,0,0,10
+8,Toronto,Grey,2020-12-26,2021-01-12,Province wide lockdown begins,Lockdown extended,1,1,0,0,1,0,10
+9,Toronto,Grey,2021-01-12,2021-02-19,Toronto continues to be in lockdown,Lockdown extended,1,1,0,0,1,0,10
+10,Toronto,Red,2021-02-19,2021-02-27,Toronto in lockdown but some gyms and restaurants begin opening,Indoor services limited to 10 people,0,1,1,1,0,10,25
