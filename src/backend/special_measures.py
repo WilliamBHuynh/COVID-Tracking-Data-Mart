@@ -29,15 +29,16 @@ curr.execute("""DROP TABLE if exists d_special_measures;
             city                 VARCHAR(10) NOT NULL,
             zone_measures        VARCHAR(10) NOT NULL,
             description          VARCHAR(150) NOT NULL,
+            key_word             VARCHAR(25) NOT NULL,
             PRIMARY KEY (surrogate_key)
             );""")
 
 
-sqlInsert = """ INSERT INTO d_special_measures (surrogate_key, begin_date, end_date, city, zone_measures, description) VALUES (%s,%s,%s,%s,%s,%s) """
+sqlInsert = """ INSERT INTO d_special_measures (surrogate_key, begin_date, end_date, city, zone_measures, description, key_word) VALUES (%s,%s,%s,%s,%s,%s,%s) """
 
 for idx, row in special.iterrows():
     record = (row["Special_Measures_Surrogate_Key"], row["Start_Date"], row["End_Date"], row["City"], row["Zone_Measures"],
-              row["Description"])
+              row["Description"], row["Key_Word"])
     curr.execute(sqlInsert, record)
 
 conn.commit()
