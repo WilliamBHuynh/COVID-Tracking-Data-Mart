@@ -17,7 +17,6 @@ cur.execute("""DROP TABLE if exists d_patient;
             CREATE TABLE d_patient
             (
             patient_surrogate_key       INT NOT NULL,
-            patient_key                 INT NOT NULL,
             age                         VARCHAR(7) NOT NULL,
             gender                      VARCHAR(14) NOT NULL,
             acquisition_group           VARCHAR(20) NOT NULL,
@@ -26,10 +25,10 @@ cur.execute("""DROP TABLE if exists d_patient;
             );""")
 
 # Insert values from data to table
-sqlInsert = """ INSERT INTO d_patient (patient_surrogate_key, patient_key, age, gender, acquisition_group,
-     outbreak_related) VALUES (%s,%s,%s,%s,%s,%s) """
+sqlInsert = """ INSERT INTO d_patient (patient_surrogate_key, age, gender, acquisition_group,
+     outbreak_related) VALUES (%s,%s,%s,%s,%s) """
 for idx, row in data.iterrows():
-    record = (row["Patient_Surrogate_Key"], row["Patient_Key"], row["Age"], row["Gender"],
+    record = (row["Patient_Surrogate_Key"], row["Age"], row["Gender"],
               row["Acquisition_Group"], row["Outbreak_Related"])
     cur.execute(sqlInsert, record)
 
