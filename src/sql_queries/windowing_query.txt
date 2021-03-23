@@ -1,0 +1,4 @@
+SELECT DISTINCT phu.phu_name, count(*)
+OVER(PARTITION BY phu.phu_name)
+FROM d_phu phu, fact_table f
+WHERE(phu.phu_surrogate_key = f.phu_key);
