@@ -1,0 +1,3 @@
+select sum(F.resolved) as Total_Resolved, sum(F.unresolved) as Total_Unresolved, sum(F.fatal) as Total_Fatal
+from fact_table as F, d_phu as D
+where F.phu_key = D.phu_surrogate_key and D.phu_name = 'Toronto Public Health';
