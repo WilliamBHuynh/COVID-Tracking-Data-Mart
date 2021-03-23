@@ -1,0 +1,6 @@
+SELECT count(*), r.date_full_format 
+FROM fact_table f, d_reported_date r
+WHERE (f.reported_date_key = r.reported_date_surrogate_key)
+GROUP BY(f.reported_date_key, r.date_full_format)
+ORDER BY count DESC
+FETCH FIRST 10 ROWS ONLY;
