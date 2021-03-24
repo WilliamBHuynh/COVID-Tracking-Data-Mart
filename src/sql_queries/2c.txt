@@ -1,0 +1,5 @@
+SELECT count(*) as "Resolved Cases" OVER w
+FROM fact_table f, d_phu phu, d_reported_date r
+WHERE(f.phu_key = 1 AND f.resolved = 1 AND f.reported_date_key = r.reported_date_surrogate_key )
+GROUP BY(f.phu_key)
+WINDOW w AS (PARTITION BY f.phu_key)
