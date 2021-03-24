@@ -1,0 +1,9 @@
+SELECT AVG(cases.cnt),
+CASE WHEN cases.precip > 0 THEN 'Precipitation'
+	 WHEN cases.precip = 0 THEN 'No Precipitation' END AS precipitation
+FROM(
+SELECT count(*) as cnt, r.date_full_format, w.total_precipitation as precip	
+	  FROM fact_table f, d_reported_date r, d_weather w
+	  WHERE (f.reported_date_key = r.reported_date_surrogate_key AND f.phu_key = 1 AND w.weather_key = f.weather_key)
+	  GROUP BY (r.date_full_format, w.total_precipitation)) as cases
+GROUP BY(precipitation)
