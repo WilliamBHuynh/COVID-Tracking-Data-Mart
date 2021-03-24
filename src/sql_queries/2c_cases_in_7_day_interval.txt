@@ -1,0 +1,7 @@
+SELECT DISTINCT COUNT(f.*) OVER W AS count, r.date_full_format
+FROM fact_table f, d_phu phu, d_reported_date r
+WHERE r.reported_date_surrogate_key=f.reported_date_key AND f.phu_key = 1
+WINDOW W AS (PARTITION BY f.phu_key
+ORDER BY r.date_full_format
+RANGE BETWEEN INTERVAL '3' DAY PRECEDING
+AND INTERVAL '3' DAY FOLLOWING)
