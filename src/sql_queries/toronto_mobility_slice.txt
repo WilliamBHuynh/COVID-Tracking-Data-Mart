@@ -1,3 +1,3 @@
 select D.retail_and_recreation, D.grocery_and_pharmacy, D.parks, D.transit_stations, D.workplaces, D.residential, D.subregion
 from d_mobility as D
-where D.subregion = 'Ottawa Division';
+where D.subregion = 'Toronto Division';
