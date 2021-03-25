@@ -1,5 +1,0 @@
-SELECT h.city AS "City", r.month AS "Month", s.lockdown AS "Lockdown", SUM(f.fatal) AS "Fatalities" 
-FROM fact_table f, d_reported_date r, d_phu h, d_special_measures s
-WHERE (r.month = 1 or r.month = 2) AND (s.lockdown = 1) AND h.city = 'Toronto' AND s.surrogate_key = f.special_measures_key AND r.reported_date_surrogate_key = f.reported_date_key AND h.phu_surrogate_key = f.phu_key 
-GROUP BY (h.city, r.month, s.lockdown)
-ORDER BY r.month
