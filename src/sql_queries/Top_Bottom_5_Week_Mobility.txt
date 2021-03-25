@@ -1,0 +1,16 @@
+SELECT SUM(weeks.count) as Cases, 
+SUM(weeks.parks) as parks,
+SUM(weeks.residential) as Residential, 
+SUM(weeks.retail_and_recreation) as "Retail and Recreation",
+SUM(weeks.transit_stations) as transit,
+SUM(weeks.workplaces) AS Workplaces, weeks.phu_key, weeks.week_in_year,
+RANK() OVER (PARTITION BY weeks.phu_key ORDER BY SUM(weeks.count) DESC) as ranking
+FROM(
+SELECT r.week_in_year, count(*), r.date_full_format, f.phu_key,
+m.parks, m.residential, m.retail_and_recreation, m.transit_stations, m.workplaces
+FROM fact_table f, d_reported_date r, d_mobility m
+WHERE (f.reported_date_key = r.reported_date_surrogate_key AND m.mobility_key = f.mobility_key)
+GROUP BY(r.week_in_year, r.date_full_format, f.phu_key, m.mobility_key)) as weeks
+GROUP BY(weeks.phu_key, weeks.week_in_year)
+
+
