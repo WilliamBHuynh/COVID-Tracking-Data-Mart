@@ -1,0 +1,4 @@
+SELECT h.city AS "City", p.age AS "Age Group", SUM(f.fatal) AS "Fatalities"
+FROM fact_table f, d_phu h, d_patient p
+WHERE h.city = 'Ottawa' AND (p.age IN ('90+', '80s', '70s', '60s', '50s')) AND h.phu_surrogate_key = f.phu_key AND p.patient_surrogate_key = f.patient_key
+GROUP BY h.city, p.age

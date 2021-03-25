@@ -1,0 +1,5 @@
+SELECT h.city AS "City", p.age AS "Age", COUNT(f.resolved) AS "Cases", SUM(f.fatal) AS "Fatalities"
+FROM fact_table f, d_reported_date r, d_phu h, d_patient p
+WHERE h.city = 'Toronto' AND p.outbreak_related = 'N' AND p.age <> 'UNKNOWN' AND p.patient_surrogate_key = f.patient_key AND h.phu_surrogate_key = f.phu_key AND r.reported_date_surrogate_key = f.reported_date_key
+GROUP BY h.city, p.age
+ORDER BY "Cases" DESC
