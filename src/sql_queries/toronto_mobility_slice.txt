@@ -1,3 +1,4 @@
 select D.retail_and_recreation, D.grocery_and_pharmacy, D.parks, D.transit_stations, D.workplaces, D.residential, D.subregion
-from d_mobility as D
-where D.subregion = 'Toronto Division';
+from d_mobility as D, fact_table as F
+where F.mobility_key = D.mobility_key and D.subregion = 'Toronto Division'
+group by (D.retail_and_recreation, D.grocery_and_pharmacy, D.parks, D.transit_stations, D.workplaces, D.residential, D.subregion);
