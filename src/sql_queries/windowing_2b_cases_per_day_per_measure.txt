@@ -1,7 +1,7 @@
 SELECT AVG(cases.cnt), sm.*
 , RANK () OVER(ORDER BY AVG(cases.cnt))
 FROM(
-SELECT count(*) as cnt, phu.phu_name as phu, f.special_measures_key as special
+SELECT SUM(fatal + resolved + unresolved) as cnt, phu.phu_name as phu, f.special_measures_key as special
 	  FROM fact_table f, d_reported_date r, d_phu phu
 	  WHERE (f.reported_date_key = r.reported_date_surrogate_key 
 			 AND phu.phu_surrogate_key = f.phu_key)
