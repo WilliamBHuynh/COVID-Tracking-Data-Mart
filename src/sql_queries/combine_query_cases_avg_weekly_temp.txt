@@ -1,5 +1,0 @@
-select h.city as "City", r.week_in_year as "Week", round(avg(w.daily_mean),2) as "Avg. Weekly Temp", sum(f.resolved + f.fatal + f.unresolved) as "Cases"
-from d_weather w, fact_table f, d_reported_date r, d_phu h
-where h.city = 'Ottawa' and w.weather_key = f.weather_key and h.phu_surrogate_key = f.phu_key and r.reported_date_surrogate_key = f.reported_date_key
-group by r.year, r.week_in_year, h.city
-order by r.year, r.week_in_year
