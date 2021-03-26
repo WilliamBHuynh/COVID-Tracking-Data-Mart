@@ -1,0 +1,5 @@
+SELECT h.city AS "City", p.age AS "Age", r.month AS "Month", r.year AS "Year", p.outbreak_related AS "Outbreak Related", SUM(f.resolved + f.unresolved + f.fatal) AS "Cases", SUM(f.fatal) AS "Fatalities"
+FROM fact_table f, d_reported_date r, d_phu h, d_patient p
+WHERE h.city = 'Toronto' AND p.outbreak_related = 'Y' AND p.age <> 'UNKNOWN' AND r.reported_date_surrogate_key = f.reported_date_key AND p.patient_surrogate_key = f.patient_key AND h.phu_surrogate_key = f.phu_key
+GROUP BY h.city, p.age, p.outbreak_related, ROLLUP(r.year, r.month)
+ORDER BY r.year, r.month, p.age
