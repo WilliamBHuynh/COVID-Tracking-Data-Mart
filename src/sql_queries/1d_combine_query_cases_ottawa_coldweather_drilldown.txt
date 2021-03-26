@@ -1,0 +1,5 @@
+SELECT h.city AS "City", r.year as "Year", r.week_in_year AS "Week",  r.day AS "Day", w.daily_high_temp, SUM(f.resolved + f.fatal + f.unresolved) AS "Cases"
+FROM fact_table f, d_reported_date r, d_phu h, d_weather w
+WHERE h.city = 'Ottawa' AND w.daily_high_temp < 0 AND w.weather_key = f.weather_key AND h.phu_surrogate_key = f.phu_key AND r.reported_date_surrogate_key = f.reported_date_key
+GROUP BY h.city, r.year, r.week_in_year, r.day, w.daily_high_temp
+ORDER BY r.year, r.week_in_year, r.day
