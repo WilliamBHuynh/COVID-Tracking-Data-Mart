@@ -1,5 +1,0 @@
-select h.city as "City", p.age as "Age", p.outbreak_related, sum(f.resolved + f.unresolved + f.fatal) as "Cases", sum(f.fatal) as "Fatalities"
-from fact_table f, d_reported_date r, d_phu h, d_patient p
-where h.city = 'Toronto' and p.outbreak_related = 'N' and p.age <> 'UNKNOWN' and p.patient_surrogate_key = f.patient_key and h.phu_surrogate_key = f.phu_key and r.reported_date_surrogate_key = f.reported_date_key
-group by h.city, p.age, p.outbreak_related
-order by "Cases" desc
