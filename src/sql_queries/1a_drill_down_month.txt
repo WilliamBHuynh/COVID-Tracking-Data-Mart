@@ -1,4 +1,6 @@
-select sum(F.resolved) as Total_Resolved
-from fact_table as F, d_onset_date as D
-where F.onset_date_key = D.onset_date_surrogate_key and
-	  D.month = 1 and D.year = 2021;
+select L.city as "City", D.day as "Day", D.month as "Month", D.year as "Year", sum(F.resolved) as Total_Resolved
+from fact_table as F, d_onset_date as D, d_phu as L
+where F.onset_date_key = D.onset_date_surrogate_key and F.phu_key = L.phu_surrogate_key
+and L.city = 'Toronto'
+group by (L.city, D.day, D.month, D.year)
+order by L.city, D.month, D.Day, D.year
